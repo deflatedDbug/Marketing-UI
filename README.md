@@ -2,7 +2,9 @@ This is a [Next.js](https://nextjs.org/) project using styled-components .
 
 ## Getting Started
 
-First, run the development server:
+First, run cd into packages/mo-marketing  
+
+Then start the development server:
 
 ```bash
 npm run dev
