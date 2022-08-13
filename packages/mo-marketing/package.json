@@ -1,0 +1,43 @@
+{
+  "name": "mo-marketing-site",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "APP_ENV=staging next dev -p 5002",
+    "build": "next build",
+    "export": "next export",
+    "ci": "CI=true npm-run-all build export",
+    "serve-local": "serve ./out",
+    "clean": "rimraf node_modules"
+  },
+  "dependencies": {
+    "@paymentlabs/components": "*",
+    "@paymentlabs/utils": "*",
+    "@sanity/asset-utils": "^1.2.3",
+    "@sanity/client": "^2.21.10",
+    "@sanity/image-url": "^1.0.1",
+    "@svgr/webpack": "^5.5.0",
+    "bootstrap": "^4.5.3",
+    "classnames": "^2.2.6",
+    "dangerously-set-html-content": "^1.0.8",
+    "next": "12.0.4",
+    "nodemon": "^2.0.15",
+    "prettier": "^2.1.2",
+    "react": "17.0.1",
+    "react-bootstrap": "^1.4.0",
+    "react-dom": "17.0.1",
+    "react-google-recaptcha": "^2.1.0",
+    "sass": "^1.28.0",
+    "styled-components": "^5.2.1",
+    "swr": "^1.0.1",
+    "typewriter-effect": "^2.17.0",
+    "xml-formatter": "2.4.0",
+    "prop-types": "^15.8.1"
+  },
+  "devDependencies": {
+    "cross-env": "^7.0.2",
+    "npm-run-all": "^4.1.5",
+    "serve": "^11.3.2",
+    "typescript": "^4.1.5"
+  }
+}
